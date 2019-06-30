@@ -1,0 +1,21 @@
+/* .navBarStyling{
+ background-color:  #333545;
+ padding: 10px 0;
+ min-height: 65px;
+}
+.searchStyling{
+  position: relative;
+  vertical-align: top;
+padding-left: 400px;
+} */
+.navbarDesign{
+  background:#333545;
+  /* height: 150px; */
+}
+.searchBarDesign{
+  padding-top: 10px;
+}
+.childComponentDesign{
+  color: white;
+  padding-bottom: 10px;
+}

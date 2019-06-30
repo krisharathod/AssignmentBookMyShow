@@ -1,0 +1,128 @@
+[{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A0",
+  "charges":200
+},
+{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A1",
+  "charges":200
+},{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A2",
+  "charges":200
+},{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A3",
+  "charges":200
+},{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A4",
+  "charges":200
+},{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A5",
+  "charges":200
+},{
+  "SeatType" : "RoyalSofa",
+  "seatsName":"A6",
+  "charges":200
+},
+
+ {
+  "SeatType" : "Platinum",
+  "seatsName":"B1",
+  "charges":150
+ },
+
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B2",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B3",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B4",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B5",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B6",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B7",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B8",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B9",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B10",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B11",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B12",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B13",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B14",
+  "charges":150
+},
+{
+  "SeatType" : "Platinum",
+  "seatsName":"B15",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B16",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B17",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B18",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B19",
+  "charges":150
+},{
+  "SeatType" : "Platinum",
+  "seatsName":"B20",
+  "charges":150
+}
+
+
+]

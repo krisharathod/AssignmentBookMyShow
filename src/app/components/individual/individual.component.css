@@ -1,0 +1,36 @@
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 1500px;
+  height: 400px;
+
+}
+
+.form-inline{
+  display: inline;
+}
+input[type=checkbox], input[type=radio] {
+  /* box-sizing: border-box; */
+  /* padding: 0; */
+  /* padding-left: 5px !important; */
+  /* padding-right: 5px !important; */
+  /* margin-left: 5%; */
+  height: 10px;
+  width: 20px;
+}
+.paymentDesign{
+border: 1px solid whitesmoke;
+background: skyblue;
+border-radius: 3px;
+margin-top: 3%;
+}
+.buttonDesign{
+  margin-top: 3%;
+}
+.seatPanel{
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

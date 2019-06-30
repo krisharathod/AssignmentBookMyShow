@@ -1,0 +1,111 @@
+<div class="row">
+<div class="container-fluid movieDesign" *ngIf="this.movieName == 'Bharat' " >
+
+
+            <img  src="../../../assets/images/bharatMain.jpg" >
+
+</div>
+    <div class="row" *ngIf="this.movieName == 'Kabir' " style="padding-top: 30px;">
+
+                <img  src="../../../assets/images/kabirSinghMain.jpg" >
+
+        </div>
+        <div class="row" *ngIf="this.movieName == 'Kalank' " style="padding-top: 30px;">
+
+                    <img  src="../../../assets/images/KalankMain.jpg" >
+
+
+            </div>
+
+
+          </div>
+          <div class="row buttonDesign"  *ngIf="this.buttonFlag">
+            <div class="col-md-9"></div>
+            <div class="col-md-3">
+              <button type="button" (click)="OnBookTicket()" class="btn btn-primary">Book Tickets</button>
+            </div>
+            </div>
+
+
+
+<div class="row" *ngIf="locationFlag">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="card mb-3" style="width: 100%;margin-top: 3%;">
+
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12" *ngFor="let local of location">
+
+                {{local.location}} -- {{local.theaterName}} --  <button type="button" (click)="SelectMovie(local.location,local.theaterName,local.time1)">{{local.time1}} </button>  <button (click)="SelectMovie(local.location,local.theaterName,local.time2)">{{local.time2}} </button>
+                <hr>
+
+            </div>
+
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+  </div>
+
+
+ <div class="row" *ngIf="this.selectSeatsFlag">
+    <div class="col-md-2">
+
+    </div>
+
+      <div class="col-md-8 seatPanel">
+
+        <form  class="form-inline" style="margin-bottom: 10%;" (ngSubmit)="onBookSeat(bookSeatForm)" #bookSeatForm="ngForm" novalidate>
+          <div class="row" >
+            <div *ngFor="let royalseat of seatsInTheater ;index as i">
+          <input type="checkbox" id={{i}}  class="form-control " ngModel #{{i}}="ngModel"  name={{i}} value={{royalseat.seatsName}} style="padding-left: 5px;padding-right:5px">
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <button type="submit" style="margin-bottom: 3%; background-color:cornflowerblue;" > Proceed To Pay</button>
+        </div>
+
+        <div class="col-md-4"></div>
+
+
+        </div>
+        </form>
+
+
+
+
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+<div class="row" *ngIf="this.proceedTowordsPayament">
+    <div class="col-md-3"></div>
+  <div class="col-md-6  paymentDesign">
+    <div class="row ">
+
+<label for="name">Selected Seat =></label>
+
+{{ this.selectSeat}}
+</div>
+<div class="row">
+<label for="name">Total Amount => </label>
+{{ this.amount}}
+</div>
+<div class="row">
+<label for="name"> No. of Seats =></label>
+{{this.count}}
+</div>
+</div>
+<div class="col-md-3"></div>
+</div>
